@@ -1,0 +1,155 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+body{
+    background-color: #222;
+}
+.about{
+    width: 100vb;
+}
+.header{
+    height: 190px;
+    background-color: #182628;
+  }
+
+
+.navbar-nav a{
+    color: bisque;
+    transition: 2s;
+}
+.navbar-toggler {
+    border: none; /* Remove default border */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Default color */
+}
+
+#logo img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.navbar-nav a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.roboto-condensed{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 660;
+    font-style: normal;
+}
+.main{
+    height: 1300px;
+    /* background-image: url(a-stopwatch-on-a-stack-of-wooden-cubes-with-the-word-event-management-3d-illustration-business-and-organization-management-concept-2MAB7N6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background: #376e6f;
+
+
+
+}
+.main img{
+    /* margin-left: 130px;
+    margin-top: 70px;
+    margin-bottom: 50px; */
+    width: 100%;
+}
+.main h2{
+    color: bisque;
+    margin-left: 650px;
+    padding: 30px;
+}
+.main p{
+    color: black;
+    width: 800px;
+    margin-left: 400px;
+}
+.mtrow{
+    height: 50px;
+}
+#row1{
+    height: auto;
+
+}
+#row2{
+    height: auto;
+}
+#col1{
+    /* background-color: white; */
+    color: black;
+    background-color: #f2f2f2;
+}
+#col2{
+    background-color: #254e58;
+    color: bisque;
+}
+#col3{
+    background-color: #254e58;
+    color: bisque;
+}
+#col4{
+    background-color: #f2f2f2;
+    color: black;
+}
+.fluid1 p{
+    padding: 230px 100px;
+}
+
+
+ 
+#footer{
+    
+    height: 200px;
+    width: auto;
+    color: bisque;
+    font-size: 20px;
+    background-color: #182628;
+    justify-items: center;
+    text-align: center;
+
+}
+  .icon{
+      text-align: center; 
+ }
+  i:hover{
+      cursor: pointer;
+      color:aqua
+  }
+
+  @media (min-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: #007bff; /* Change to your desired color for larger screens */
+    }
+}
+
+/* Change color on hover/focus */
+.navbar-toggler:focus .navbar-toggler-icon,
+.navbar-toggler:hover .navbar-toggler-icon {
+    background-color: #ccc; /* Change to your desired hover color */
+}
+
+/* Change color for smaller screens */
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        background-color: #f6eeec; /* Change to your desired color for small screens */
+    }
+    .header{
+        height: auto;
+    }
+    .main p{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    .main h2{
+        margin: 0;
+        padding: 0;
+    }
+    .fluid1 p{
+        padding: 100px 100px;
+    }
+}

@@ -1,0 +1,88 @@
+.main{
+    height: 1200px;
+    background-image: url(contactbgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.uldiv{
+    height: 900px;
+    width: 300px;
+    margin-top: 200px;
+}
+ul{
+    width:300px;
+    
+}
+ul li{
+    list-style: none;
+    margin-top: 90px;
+    font-size: 30px;
+
+}
+a:hover{
+    color: aqua;
+}
+.subdiv{
+    height: 600px;
+    width: 500px;
+    margin-top: 400px;
+    background-color: #ffffff09;
+}
+p{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+i{
+    padding: 5px;
+}
+
+.idiv{
+    background-color: bisque;
+    padding: px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+idiv i:hover{
+    color: aqua;
+}
+a img{
+    padding: 30px;
+}
+a img:hover{
+    border: 3px solid black;
+}
+.form{
+    background-color: aqua;
+    width: 400px;
+    background-color: #ffffff09;
+    margin-top: 400px;
+    margin-left: 200px;
+
+}
+.form h2{
+    padding: 30px;
+}
+input{
+    padding: 25px;
+}
+#name {
+    padding: 5px;
+    margin-left: 20px;
+}
+#email{
+    padding: 5px;
+    margin-left: 20px;
+
+}
+#txtarea{
+    padding: 5px;
+    margin-left: 20px;   
+}
+#sub{
+    margin-left: 100px;
+}
+iframe{
+    margin-top: 20px;
+}

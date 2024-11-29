@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    overflow-x: hidden;
+}
+ 
+.header{
+    height: 190px;
+    background-color: #182628;
+  }
+
+
+.navbar-nav a{
+    color: bisque;
+    transition: 2s;
+}
+.navbar-toggler {
+    border: none; /* Remove default border */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Default color */
+}
+
+#logo img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.navbar-nav a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.row1{
+    height: auto;
+    width: 100%;
+    background-color: #254e58;
+    
+    
+}
+.mtrow{
+    height: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* background-color: rgb(42, 42, 69); */
+    padding-top: 25px;
+    color: bisque;
+}
+.text p,h2{
+    /* height: 150px; */
+    font-family: "Playfair Display";
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: bisque;
+}
+.last{
+    height: 100px;
+}
+.last p{
+    font-family: "Playfair Display";
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: bisque;
+}
+
+.text{
+    height: auto;
+    /* background-color: #f2f2f2; */
+}
+
+span{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight:bolder;
+  font-style: normal;
+  
+}
+  
+
+.img{
+    width: 600px;
+    height: 400px;
+}
+.clients{
+    height: 600px;
+}
+
+#footer{
+    
+    height: 200px;
+    width: auto;
+    color: bisque;
+    font-size: 20px;
+    background-color: #182628;
+    justify-items: center;
+    text-align: center;
+
+}
+  .icon{
+      text-align: center; 
+ }
+  i:hover{
+      cursor: pointer;
+      color:aqua
+  }
+/* #footer p{
+    margin-left: 400px;
+    padding-top: 100px;
+}
+.icon{
+    margin-left: 650px ;
+}
+i:hover{
+    cursor: pointer;
+    color:aqua
+} */
+h3{
+    
+    font-weight: 400px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: #007bff; /* Change to your desired color for larger screens */
+    }
+}
+
+/* Change color on hover/focus */
+.navbar-toggler:focus .navbar-toggler-icon,
+.navbar-toggler:hover .navbar-toggler-icon {
+    background-color: #ccc; /* Change to your desired hover color */
+}
+
+/* Change color for smaller screens */
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        background-color: #f6eeec; /* Change to your desired color for small screens */
+    }
+    .header{
+        height: auto;
+    }
+    .clients{
+        height: auto;
+    }
+    .clients img{
+        width: 390px;
+        height: auto;
+    }
+}
